@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { SimpleForm } from './components/useEffect/SimpleForm';
+import { FormWithCustomHook } from './components/useEffect/FormWithCustomHook';
+//import { SimpleForm } from './components/useEffect/SimpleForm';
 //import { CounterApp } from './components/useState/CounterApp';
 //import { CounterWithCustomHook } from './components/useState/CounterWithCustomHook';
 
 ReactDOM.render(
-  <SimpleForm />,
+  <FormWithCustomHook />,
   document.getElementById('root')
 );

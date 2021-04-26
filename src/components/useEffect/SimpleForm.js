@@ -13,15 +13,15 @@ export const SimpleForm = () => {
     const { name, email } = formState;
 
     useEffect( () => {
-
+        //console.log("Se cargó nuevamente el componente");
     }, [] );
 
     useEffect( () => {
-
+        //console.log("Ocurrió un cambio en el formState");
     }, [formState] );
 
     useEffect( () => {
-
+        //console.log("Ocurrió un cambio en el email");
     }, [email] );
 
     const handleInputChange = ({ target }) => {
