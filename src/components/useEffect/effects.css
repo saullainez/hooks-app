@@ -5,3 +5,7 @@ body {
 input{
     margin-bottom: 10px;
 }
+
+.text-right{
+    text-align: right;
+}
