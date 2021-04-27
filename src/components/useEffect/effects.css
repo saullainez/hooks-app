@@ -9,3 +9,7 @@ input{
 .text-right{
     text-align: right;
 }
+
+.ml-3{
+    margin-left: 10px;
+}

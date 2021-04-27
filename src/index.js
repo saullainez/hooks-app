@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { LayoutEffect } from './components/useLayoutEffect/LayoutEffect';
+import { Memorize } from './components/memos/Memorize';
+//import { LayoutEffect } from './components/useLayoutEffect/LayoutEffect';
 //import { MultipleCustomHooks } from './components/examples/MultipleCustomHooks';
 //import { FocusScreen } from './components/useRef/FocusScreen';
 //import { RealExampleRef } from './components/useRef/RealExampleRef';
@@ -10,6 +11,6 @@ import { LayoutEffect } from './components/useLayoutEffect/LayoutEffect';
 //import { CounterWithCustomHook } from './components/useState/CounterWithCustomHook';
 
 ReactDOM.render(
-  <LayoutEffect />,
+  <Memorize />,
   document.getElementById('root')
 );
