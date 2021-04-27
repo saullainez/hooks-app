@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Memorize } from './components/memos/Memorize';
+import { MemoHook } from './components/memos/MemoHook';
+//import { Memorize } from './components/memos/Memorize';
 //import { LayoutEffect } from './components/useLayoutEffect/LayoutEffect';
 //import { MultipleCustomHooks } from './components/examples/MultipleCustomHooks';
 //import { FocusScreen } from './components/useRef/FocusScreen';
@@ -11,6 +12,6 @@ import { Memorize } from './components/memos/Memorize';
 //import { CounterWithCustomHook } from './components/useState/CounterWithCustomHook';
 
 ReactDOM.render(
-  <Memorize />,
+  <MemoHook />,
   document.getElementById('root')
 );
