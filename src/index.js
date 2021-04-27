@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MemoHook } from './components/memos/MemoHook';
+import { CallbackHook } from './components/memos/CallbackHook';
+//import { MemoHook } from './components/memos/MemoHook';
 //import { Memorize } from './components/memos/Memorize';
 //import { LayoutEffect } from './components/useLayoutEffect/LayoutEffect';
 //import { MultipleCustomHooks } from './components/examples/MultipleCustomHooks';
@@ -12,6 +13,6 @@ import { MemoHook } from './components/memos/MemoHook';
 //import { CounterWithCustomHook } from './components/useState/CounterWithCustomHook';
 
 ReactDOM.render(
-  <MemoHook />,
+  <CallbackHook />,
   document.getElementById('root')
 );
