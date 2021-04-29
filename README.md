@@ -13,6 +13,13 @@
  * Memo
  * useMemo
  * useCallback
+ * Context
+ * Provider
+ * useContext
+ * React Router
+ * links y NavLinks
+ * CreateContext
+ * SPA
 
 
  ------------------------------------------------------------
@@ -31,4 +38,11 @@
  * Memo
  * useMemo
  * useCallback
+ * Context
+ * Provider
+ * useContext
+ * React Router
+ * links y NavLinks
+ * CreateContext
+ * SPA
 
